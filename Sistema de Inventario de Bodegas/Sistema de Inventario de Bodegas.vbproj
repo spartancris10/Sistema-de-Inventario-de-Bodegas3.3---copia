@@ -95,6 +95,12 @@
     <Compile Include="Bodega_Form.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Entradas_Form.Designer.vb">
+      <DependentUpon>Entradas_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entradas_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Inv-Bodegas_DataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -153,6 +159,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Bodega_Form.resx">
       <DependentUpon>Bodega_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entradas_Form.resx">
+      <DependentUpon>Entradas_Form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventario_Form.resx">
       <DependentUpon>Inventario_Form.vb</DependentUpon>
